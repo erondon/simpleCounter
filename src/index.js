@@ -6,9 +6,7 @@ import * as serviceWorker from './serviceWorker';
 
 let counter = 0;
 let digit = '';
-//let counter2 = 0;
-//let counter3 = 0;
-//let counter4 = 0;
+
 
 function countDigits (n){
 
@@ -24,6 +22,7 @@ function countDigits (n){
          digit = '0' + counter.toString();
          return digit
      }
+     else {return counter.toString()}
 }
 setInterval(()=>{
 
