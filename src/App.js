@@ -8,7 +8,7 @@ const App = (props) =>{
   <div className="row">
 
     <div className="col-sm digits text-center">
-    <i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp{props.digits}
+    <i class="fa fa-clock-o" aria-hidden="true"></i>{props.digits}
     </div>
   </div>
 </div>
